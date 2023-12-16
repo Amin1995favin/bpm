@@ -1,0 +1,30 @@
+<!-- display_data.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display Page</title>
+</head>
+<body>
+    <h1>Data Display</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>نام فیلد 1</th>
+                <th>نام فیلد 2</th>
+                <!-- سایر فیلدها -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+                <tr>
+                    <td>{{ row.field1 }}</td>
+                    <td>{{ row.field2 }}</td>
+                    <!-- سایر فیلدها -->
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,136 @@
+Login
+main ____________17
+Chain_Aue ____________
+Chain_Iran
+Admin_Check_Order
+Customer_Manager_Check_Order
+Delivery_Manager_Check_Order
+Clearance_Manager_Check_Order
+Account_Chain_Check_Order ____________یه تیبلش فارسی نوشته به خانم امیرخانی گفته شده اما اصلاح نشده
+Financial_Manager_Check_Order
+Financial_Check_Order
+Account_Uae_Check_Order ____________19
+Account_Syria_Check_Order ____________19_سفارش ایجاد شده رو نشون نمیده
+Clearance_Check_Order
+Marketing_Manager_Check_Order
+Marketing_Check_Order ____________19
+Persons
+New_Persons
+Check_Wallet
+Check_Payment
+Check_Warehouses_New ____
+Check_Warehouses_Old
+Load_Without_Track_Number
+Warehouses_Showopstate
+Warehouses_Receive_Confirm_Box
+Deliver_Cars
+Latest_Packages
+Customer_Manager_Menu1 ____________19
+Customer_Manager_Menu2 __19
+Customer_Manager_Menu3
+Customer_Manager_Menu4
+Clearance_Menu
+Financial_Manager_Menu1
+Financial_Manager_Menu2
+Financial_Menu1
+Financial_Menu2 ____________01
+Delivery_Manager_Menu
+Delivery_Menu
+
+
+
+
+
+
+
+
+
+
+
+Delivery_Manager_Menu_Others
+Warehouses_Menu
+Crm_Menu
+Export_Menu1
+Export_Menu2
+
+Export_Menu3 ____________19_ گفتگو با مشتریان مشکل داره
+Export.Menu_Others1
+Export_Menu_Others2 ____________19_ تعداد نمایش تگ و جدول یکی نیست
+Uae_Menu
+Uae_Delivery
+Uae_Financial __________19_تعداد کارتابل ها از 12 به 1 کاهش پیدا کرده _تعداد منو هاشم درست نیست
+Chain_Menu1
+Chain_Menu2
+Chain_Warehouse_Menu
+Chain_Manager_Menu1
+Chain_Manager_Menu2
+Chain_Financial_Menu
+
+Financial_Manager_Menu_Others
+Financial_Menu_others
+Admin_Menu1  ____________19
+Admin_Menu2 ____________19
+Admin_Menu3 ____________19
+Admin_Menu4 ____________19
+Admin_Menu5 ____________19
+Admin_Menu6 ____________19
+Admin_Menu7 ____________19
+Admin_Menu8 ____________19
+Admin_Menu9 ____________19
+Admin_Menu10 ____________19
+Admin_Menu11 ____________19
+Admin_Menu12 ____________19
+Admin_Menu13 ____________19
+Admin_Menu14 ____________19
+Admin_Menu15 ____________19
+Admin_Menu16 ____________19
+Admin_Menu17 ____________19
+Isfahan_Menu1 ____________28
+Isfahan_Menu2 ____________28
+Isfahan_Menu3 ____________28
+Isfahan_Menu4 ____________28
+Isfahan_Manager_Menu1 ____________28
+Isfahan_Manager_Menu2
+Isfahan_Manager_Menu3
+Isfahan_Manager_Menu4 ____________28
+Isfahan_Menu_Others
+Isfahan_Manager_Menu_Others
+Yazd_Menu1 ____________28
+Yazd_Menu2 ____________28
+Yazd_Menu3 ____________28
+Yazd_Manager_Menu1
+Yazd_Manager_Menu2
+Yazd_Manager_Menu3
+Yazd_Manager_Menu4
+Alborz_Menu1
+Alborz_Menu2
+Alborz_Menu3
+Yazd_Manager_Menu_Others __________
+Syria_Menu
+Syria_Clearance_Menu
+Turk_Menu
+Turk_Clearance_Menu
+Manager_Menu_Others
+Uae_Menu_Others
+Uae_Menu_Delivery_Others
+Syria_Menu_Others
+Syria_Clearance_Menu_Others
+Turk_Clearance_Menu_Others
+
+Admin_Report1
+Admin_Report2
+Admin_Report3
+Admin_Report4
+Admin_Report5
+Admin_Report6
+Admin_Report7
+Admin_Report8
+Iran.Report_Manager __________
+Warehouses_Iran_Report
+Iran_Delivery_Report
+Financial_Manager_Report
+Financial_Report
+
+
+Outbound_Orders_From_The_Warehouse
+

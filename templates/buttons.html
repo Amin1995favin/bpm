@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <style>
+        body {
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            max-width: 1200px; /* حداکثر عرض تیبل */
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            height: auto; /* تنظیم ارتفاع به اندازه محتوا */
+        }
+
+        th {
+            background-color: #f2f2f2; /* رنگ خاکستری برنزی */
+            text-align: center;
+
+        }
+         th:first-child {
+         width: 1%;
+         }
+          th:last-child {
+          width: 15%;
+         }
+
+        button {
+            width: 50%; /* اندازه کوچک‌تر باتن‌ها */
+            background-color: #4CAF50; /* رنگ سبز باتن‌ها */
+            color: white;
+            border: none;
+            border-radius: 5px; /* گوشه‌های گرد باتن */
+            padding: 10px; /* حاشیه داخلی باتن */
+            cursor: pointer;
+            margin: auto; /* افزودن خاصیت مارجین اتوماتیک */
+        }
+
+        button:hover {
+            background-color: #45a049; /* رنگ هاور موس */
+        }
+
+        /* افزودن استایل برای دکمه جدید */
+        #show-data-button {
+            width: 10%;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            position: absolute;
+        }
+
+        #show-data-button:hover {
+            background-color: #0056b3; /* تغییر رنگ در حالت هاور */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Buttons</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ردیف</th>
+                <th>توضیحات</th>
+                <th>اجرا</th>
+            </tr>
+        </thead>
+<tbody>
+    {% for text, link in links.items() %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ descriptions.get(text, 'توضیحات ناشناخته') }}</td>
+            <td><a href="{{ link }}"><button>{{ text }}</button></a></td>
+        </tr>
+    {% endfor %}
+</tbody>
+    </table>
+    <a href="{{ url_for('display_data') }}"><button id="show-data-button">Show Database</button></a>
+</body>
+</html>
